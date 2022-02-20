@@ -22,13 +22,5 @@ def get_opensearch():
             ssl_show_warn = False,
             )
         g.opensearch = client
-        query = {
-            "query": {
-             "match_all": {}
-            }
-        }
-        response = client.search(body = query, index = 'bbuy_products')
-        # print(response)
-        print(client.cat.indices())
 
     return g.opensearch
