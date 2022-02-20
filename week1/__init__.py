@@ -26,3 +26,5 @@ def create_app(test_config=None):
     app.add_url_rule('/', view_func=search.query)
 
     return app
+# app = create_app()
+# app.run(port=3000)

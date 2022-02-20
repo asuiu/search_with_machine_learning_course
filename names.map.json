@@ -1,0 +1,497 @@
+{
+  "productId": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "sku": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "name": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "type": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "startDate": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "active": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "regularPrice": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "salePrice": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "onSale": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "digital": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "frequentlyPurchasedWith": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "accessories": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "relatedProducts": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "crossSell": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "salesRankShortTerm": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "salesRankMediumTerm": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "salesRankLongTerm": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "bestSellingRank": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "url": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "categoryPath": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "categoryPathIds": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "categoryLeaf": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "categoryPathCount": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "customerReviewCount": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "customerReviewAverage": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "inStoreAvailability": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "onlineAvailability": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "releaseDate": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "shippingCost": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "shortDescription": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "shortDescriptionHtml": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "class": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "classId": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "subclass": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "subclassId": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "department": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "departmentId": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "bestBuyItemId": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "description": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "manufacturer": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "modelNumber": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "image": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "condition": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "inStorePickup": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "homeDelivery": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "quantityLimit": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "color": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "depth": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "height": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "weight": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "shippingWeight": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "width": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "longDescription": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "longDescriptionHtml": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  },
+  "features": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 2048
+      }
+    }
+  }
+}
